@@ -1,0 +1,79 @@
+.hero {
+    margin: 0 120px;
+    margin-top: 270px;
+}
+.hero-text {
+    color: #fff;
+    font-size: 110px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+.hero-explore p{
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hero-dot-play {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-dots {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+.hero-dot {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    cursor: pointer;
+    border-radius: 7.5px;
+}
+.hero-dot.orange {
+    background-color: orangered;
+}
+
+.hero-dot.green {
+    background-color: green;
+}   
+.hero-dot.blue {
+    background-color: blue;
+}
+.hero-play {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.hero-play p {
+    color: #fff;
+    font-size: 19px;
+}
+
+/* Example of media query for small screens */
+@media screen and (max-width: 768px) {
+    .hero-text {
+        font-size: 16px; /* Adjust font size for smaller screens */
+    }
+    .hero-explore {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+/* Example of making images responsive */
+img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+}
